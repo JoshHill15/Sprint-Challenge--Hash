@@ -25,7 +25,7 @@ def reconstruct_trip(tickets, length):
             arr.append(hm[key])
             key = hm[key]
 
-        if len(arr) == length-1:
+        if len(arr) == length:
             key = None
 
     return arr
